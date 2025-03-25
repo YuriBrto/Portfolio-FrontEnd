@@ -1,0 +1,15 @@
+<div class="container mt-5">
+  <h2 @fadeIn class="text-center">Meus Projetos</h2>
+  <div class="row mt-4">
+    <div class="col-md-4" *ngFor="let project of projects" @fadeIn>
+      <div class="card">
+        <img [src]="project.image" class="card-img-top" alt="Projeto">
+        <div class="card-body">
+          <h5 class="card-title">{{ project.title }}</h5>
+          <p class="card-text">{{ project.description }}</p>
+          <a [href]="project.link" class="btn btn-primary">Ver Projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
