@@ -1,45 +1,62 @@
-<div class="container text-center mt-5">
-  <h2 @fadeIn>Sobre Mim</h2>
-  <p @fadeIn class="lead mt-4">
-    Sou <strong>Engenheiro de Software em formação</strong>, apaixonado pela constante evolução no mundo da tecnologia. Sempre em movimento, mantenho uma participação ativa em projetos e estudos sobre as mais recentes inovações, com o objetivo de me atualizar e dominar as tendências do mercado.
-  </p>
-  <p @fadeIn>
-    Com uma base sólida em <strong>lógica de programação</strong> e <strong>orientação a objetos</strong>, sou um profissional <strong>versátil</strong> e focado, sempre pronto para entender o <strong>escopo completo de um projeto</strong>, desde os <strong>requisitos iniciais</strong>, passando pela <strong>análise de testes</strong> até a <strong>garantia de qualidade</strong>. Acredito que a verdadeira competência está em entregar soluções de <strong>alto impacto</strong> de forma <strong>eficiente</strong> e focada em resultados concretos.
-  </p>
-  <p @fadeIn>
-    Tenho um portfólio de projetos em andamento e concluídos, que demonstram minha capacidade de entregar <strong>soluções inovadoras</strong> e <strong>adequadas às necessidades do cliente</strong>. Sigo minha jornada com o compromisso de <strong>aprimorar minhas habilidades técnicas</strong> e <strong>avançar na carreira</strong>, sempre em busca de novos desafios e conhecimentos que me permitam evoluir como profissional e como pessoa.
+<div class="section-about container py-5 text-light" @FadeIn>
+  <h2 class="title-section text-center mb-4 animate__animated animate__fadeInDown">Sobre Mim</h2>
+
+  <p class="about-text lead text-justify animate__animated animate__fadeInUp">
+    Sou <strong>Engenheiro de Software em formação</strong>, apaixonado pela constante evolução no mundo da tecnologia...
   </p>
 
-  <p @fadeIn class="mt-4">
+  <p class="about-text text-justify animate__animated animate__fadeInUp animate__delay-1s">
+    Com uma base sólida em <strong>lógica de programação</strong> e <strong>orientação a objetos</strong>, sou um profissional versátil e focado...
+  </p>
+
+  <p class="about-text text-justify animate__animated animate__fadeInUp animate__delay-2s">
+    Tenho um portfólio de projetos em andamento e concluídos, que demonstram minha capacidade...
+  </p>
+
+  <p class="about-skills-intro mt-4 animate__animated animate__fadeIn animate__delay-3s">
     Aqui está um resumo das minhas habilidades como desenvolvedor <strong>Full-Stack</strong>:
   </p>
 
-  <div class="row mt-5">
-    <div class="col-md-4">
-      <h4 @fadeIn>Frontend</h4>
-      <ul @fadeIn>
-        <li>Angular</li>
-        <li>HTML5, CSS3, SCSS</li>
-        <li>Bootstrap</li>
-        <li>JavaScript/TypeScript</li>
-      </ul>
+  <div class="row mt-5 animate__animated animate__fadeInUp animate__delay-4s">
+    <div class="col-md-4 mb-4">
+      <div class="card skill-card card-frontend h-100 text-dark shadow">
+        <div class="card-body">
+          <h4 class="skill-title text-primary">Frontend</h4>
+          <ul class="skill-list list-unstyled">
+            <li>Angular</li>
+            <li>HTML5, CSS3, SCSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript/TypeScript</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <h4 @fadeIn>Backend</h4>
-      <ul @fadeIn>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>MongoDB</li>
-      </ul>
+
+    <div class="col-md-4 mb-4">
+      <div class="card skill-card card-backend h-100 text-dark shadow">
+        <div class="card-body">
+          <h4 class="skill-title text-success">Backend</h4>
+          <ul class="skill-list list-unstyled">
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <h4 @fadeIn>Outros</h4>
-      <ul @fadeIn>
-        <li>Git/GitHub</li>
-        <li>Docker</li>
-        <li>CI/CD</li>
-      </ul>
+
+    <div class="col-md-4 mb-4">
+      <div class="card skill-card card-others h-100 text-dark shadow">
+        <div class="card-body">
+          <h4 class="skill-title text-warning">Outros</h4>
+          <ul class="skill-list list-unstyled">
+            <li>Git/GitHub</li>
+            <li>Docker</li>
+            <li>CI/CD</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>

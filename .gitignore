@@ -5,11 +5,13 @@
 /tmp
 /out-tsc
 /bazel-out
+Dockerfile
 
 # Node
 /node_modules
 npm-debug.log
 yarn-error.log
+docker-compose.yml
 
 # IDEs and editors
 .idea/
@@ -19,6 +21,8 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+.env
+.dockerfile
 
 # Visual Studio Code
 .vscode/*

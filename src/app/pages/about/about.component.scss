@@ -1,22 +1,43 @@
-.container {
-  .lead {
-    font-size: 1.2rem;
-    font-weight: 300;
-  }
+.section-about {
+ 
+  height: 100vh;
+  //background: linear-gradient(135deg, #1e1e2f, #2b5876);
+  color: #fff;
 
-  h4 {
-    margin-top: 30px;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
 
-  ul {
-    list-style-type: none;
-    padding: 0;
+  .about-text {
     font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
   }
 
-  ul li {
-    margin: 5px 0;
+  .about-skills-intro {
+    font-size: 1.15rem;
+  }
+
+  .title-section {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .skill-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-8px);
+    }
+
+    .skill-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+
+    .skill-list li::before {
+      content: "✓ ";
+      color: #6c63ff;
+      margin-right: 5px;
+    }
   }
 }

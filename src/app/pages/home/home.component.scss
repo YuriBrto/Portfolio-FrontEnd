@@ -1,0 +1,25 @@
+.home-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+
+  h1 {
+    font-weight: 700;
+  }
+
+  .btn {
+    padding: 10px 30px;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
