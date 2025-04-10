@@ -1,9 +1,8 @@
 .section-about {
- 
-  height: 100vh;
-  //background: linear-gradient(135deg, #1e1e2f, #2b5876);
+  // Removido o height fixo
+  min-height: 100vh;
+  padding-bottom: 4rem; // espaço extra para não colar no footer
   color: #fff;
-
 
   .about-text {
     font-size: 1.1rem;

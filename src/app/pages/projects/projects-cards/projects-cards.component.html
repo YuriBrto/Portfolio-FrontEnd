@@ -1,0 +1,19 @@
+<div class="project-card">
+  <img [src]="image" alt="{{ title }}" class="project-image" />
+
+  <div class="project-content">
+    <h3>{{ title }}</h3>
+    <button (click)="toggleDescription()" class="btn about">About</button>
+    <p *ngIf="showDescription" class="project-description"  @fadeSlide>{{ description }}</p>
+
+
+    <div class="project-buttons">
+      <a [href]="github" target="_blank" class="btn github">
+        <i class="fa-brands fa-github"></i> View the code
+      </a>
+      <a [href]="link" target="_blank" class="btn deploy">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> View in live
+      </a>
+    </div>
+  </div>
+</div>

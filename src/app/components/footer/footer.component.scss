@@ -4,14 +4,15 @@
   background-color: #1e1e2f;
   color: #fff;
   padding: 1.5rem 0;
-  margin-top:0px;
 
   .social-icons {
     font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 
     a {
       color: #fff;
-      margin: 0 10px;
       transition: color 0.3s ease-in-out;
 
       &:hover {
